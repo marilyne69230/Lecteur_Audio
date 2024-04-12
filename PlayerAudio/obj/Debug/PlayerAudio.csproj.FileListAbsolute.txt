@@ -1,0 +1,15 @@
+C:\Projets\PlayerAudio\PlayerAudio\bin\Debug\PlayerAudio.exe.config
+C:\Projets\PlayerAudio\PlayerAudio\bin\Debug\PlayerAudio.exe
+C:\Projets\PlayerAudio\PlayerAudio\bin\Debug\PlayerAudio.pdb
+C:\Projets\PlayerAudio\PlayerAudio\obj\Debug\PlayerAudio.csproj.AssemblyReference.cache
+C:\Projets\PlayerAudio\PlayerAudio\obj\Debug\MainWindow.g.cs
+C:\Projets\PlayerAudio\PlayerAudio\obj\Debug\App.g.cs
+C:\Projets\PlayerAudio\PlayerAudio\obj\Debug\PlayerAudio_MarkupCompile.cache
+C:\Projets\PlayerAudio\PlayerAudio\obj\Debug\PlayerAudio_MarkupCompile.lref
+C:\Projets\PlayerAudio\PlayerAudio\obj\Debug\MainWindow.baml
+C:\Projets\PlayerAudio\PlayerAudio\obj\Debug\PlayerAudio.g.resources
+C:\Projets\PlayerAudio\PlayerAudio\obj\Debug\PlayerAudio.Properties.Resources.resources
+C:\Projets\PlayerAudio\PlayerAudio\obj\Debug\PlayerAudio.csproj.GenerateResource.cache
+C:\Projets\PlayerAudio\PlayerAudio\obj\Debug\PlayerAudio.csproj.CoreCompileInputs.cache
+C:\Projets\PlayerAudio\PlayerAudio\obj\Debug\PlayerAudio.exe
+C:\Projets\PlayerAudio\PlayerAudio\obj\Debug\PlayerAudio.pdb

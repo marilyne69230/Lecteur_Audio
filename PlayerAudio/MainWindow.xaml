@@ -1,0 +1,34 @@
+﻿<Window x:Class="PlayerAudio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlayerAudio"
+        mc:Ignorable="d"
+        Title="Naili Audio" Height="200" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Content="Lecteur Audio MP3" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="20"/>
+        <WrapPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="center">
+            <TextBox TextWrapping="Wrap" Text="Ouvrir un fichier MP3..." Name="FilePath" Width="207" />
+            <Button Grid.Column="2" Content="Ouvrir" Grid.Row="2" Width="87" Name="OpenFile" Click="Open_File"/>
+        </WrapPanel>
+        <ProgressBar Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Height="15" Margin="20 0" Value="0" Minimum="0" Maximum="100" Name="progress"/>
+        <Image Grid.Row="3" Width="100" Height="30" Source="/pause.png" Name="break" MouseLeftButtonDown="Break_Click"/>
+        <Image Grid.Row="3" Grid.Column="1" Width="100" Height="30" Source="/bouton-jouer.png" Name="play" MouseLeftButtonDown="Play_Click"/>
+        <Image Grid.Row="3" Grid.Column="2" Width="100" Source="/arret.png" Name="stop" MouseLeftButtonDown="Stop_Click" />
+
+        <Slider Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Margin="20 0" Name="volume" VerticalAlignment="Center" Minimum="0" Maximum="100" Value="50" ValueChanged="volume_ValueChanged"></Slider>
+    </Grid>
+</Window>
